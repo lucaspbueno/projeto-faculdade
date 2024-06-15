@@ -3,7 +3,7 @@ version: '3.8'
 services:
   frontend:
     container_name: front
-    command: ["npm", "run", "dev"]
+    command: ["npm", "run", "dev", "--host"]
     build:
       context: ./frontend
       dockerfile: Dockerfile
