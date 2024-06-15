@@ -1,0 +1,24 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8fafc !important;
+  font-size: 100%;
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87) !important;
+  background-color: #242424 !important; */
+}
+
+header {
+  height: 3.5rem;
+  width: 100vw;
+  background-color: #4f46e5;
+  color: white;
+  /* color: #242424; */
+}
