@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: front
+    command: ["npm", "run", "dev"]
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 80:5173
+    volumes:
+      - ./frontend:/app/frontend
+      - /app/frontend/node_modules
